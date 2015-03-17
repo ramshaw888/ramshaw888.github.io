@@ -1,7 +1,5 @@
 function amIHome() {
 	var home;
-   $.get("http://60.241.171.39", function( home ), html){
-    // my_var contains whatever that request returned
-}, 'html');  // or 'text', 'xml', 'more'
+   $.get("http://60.241.171.39", function( home ), "text");
    alert(home);
  }
