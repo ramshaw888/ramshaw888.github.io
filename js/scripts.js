@@ -1,5 +1,5 @@
 function amIHome() {
-    var home;
-    $.get("http://60.241.171.39", function( home ), "text");
-    alert(home);
+	$.get("demo_test.asp", function(data, status){
+            alert("Data: " + data + "\nStatus: " + status);
+    });
 }
