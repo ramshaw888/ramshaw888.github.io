@@ -12,3 +12,9 @@ h1 {
 	font-size: 50px;
 	font-weight: 300;
 }
+
+headerBlock {
+	width: 100%;
+	background-color: green;
+	height: 250px;
+}
