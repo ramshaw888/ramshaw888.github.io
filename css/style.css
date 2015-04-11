@@ -1,20 +1,45 @@
 body {
-	width: 60%;
-	margin-left: 20%;
-	margin-right: 20%;
-	margin-top: 100px;
+	width: 100%;
 	background-color: rgb(244, 243, 246);
 	font-family: 'Open Sans', sans-serif;
+	margin-top: 0px;
 }
 
 h1 {
-
 	font-size: 50px;
 	font-weight: 300;
 }
 
-headerBlock {
+
+div#headerBlock {
 	width: 100%;
-	background-color: green;
-	height: 250px;
+	background-color: rgb(73,182,168 );
+	height: 400px;
+	margin-top: 0px;
+	margin: 0;
+	clear:both;
+}
+
+div#header {
+	width: 60%;
+	margin-left: 20%;
+	margin-right: 20%;
+	margin-top: 40px;
+	color: white;
+	position: absolute;
+}
+
+p {
+	color: black;
+}
+
+div#headerClear {
+	clear:both;
+	width: 100%;
+	height: 400px;
+	margin-top: 0px;
+}
+
+img {
+	width: 100%;
 }
